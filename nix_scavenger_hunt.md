@@ -40,7 +40,7 @@ boot  etc  home      lib64  mnt    proc  run   srv   tmp  var
 I input cd then pwd and came up with: /home/cabox 
 
 * Another special shortcut in Unix is the `~` location. This indicates the *user root* directory, meaning the top-most directory in the hierarchy that comes below your user account. Use `cd` to move to `~`. *Run `pwd` and paste the response here:*
-Come back to it?
+/ *not too sure about this one. 
 
 * Change directory into the `challenge_files` directory. Use `ls` to find only the files with a `.demo` pattern. *How many files do you find?* 
 01                       Hillard-Ziemann.user                           
@@ -149,6 +149,117 @@ incidunt. Explicabo vel esse blanditiis dolorem culpa non quia.
 ### Pipes and Connecting Commands
 
 * Sometimes it's useful to output the results of a command to a text file for further analysis, reference, or processing. Try running `ls > files.txt`. Notice that the file `files.txt` was created. View that file using `more`. *What do you see in the `files.txt` file?*
+I see a lot of users/names. 
+01
+2015_special_stuff.demo
+Afton-Jast.user
+Aimee-Maggio.user
+Alfonso-Gottlieb.user
+Allen-Kemmer.user
+Almina-Cormier.user
+Alta-Lemke.user
+Amina-McGlynn.user
+Anabel-Hammes.user
+Ancel-Conn.user
+Anjali-Halvorson.user
+Ardath-Kuvalis.user
+Avah-Dickinson.user
+Ayaan-Stiedemann.user
+Aylin-Grant.user
+Bedford-Sipes.user
+Benita-King.user
+Benito-Stoltenberg.user
+Beverlee-Moen.user
+Brad-Thiel.user
+Brayan-Douglas.user
+Bria-Satterfield.user
+Bridgette-Reichel.user
+Britt-Erdman.user
+Britta-Hammes.user
+Bryant-Kuhic.user
+Bryton-Aufderhar.user
+Caitlin-Grady.user
+Carroll-Hartmann.user
+Claudie-McClure.user
+Clemente-Haley.user
+Cleo-VonRueden.user
+Codie-Romaguera.user
+Cooper-Reynolds.user
+Corrie-Bogisich.user
+Dannielle-Green.user
+Deedee-Jacobson.user
+Desiree-Marks.user
+Deven-Rutherford.user
+Doyle-Jones.user
+Dustyn-O'Connell.user
+Elza-Mraz.user
+Emory-Crona.user
+Erin-Walker.user
+Estela-Schultz.user
+Fernanda-Tromp.user
+Fletcher-Rice.user
+Fred-Ryan.user
+Genie-Abshire.user
+Grace-Tromp.user
+Grant-Cronin.user
+Hali-Roob.user
+Harland-Schoen.user
+Harrell-Quitzon.user
+Hillard-Ziemann.user
+Isadora-Leffler.user
+Jaxen-Gleichner.user
+Jayme-Rodriguez.user
+Jenni-O'Connell.user
+Johny-Borer.user
+Kassandra-Barrows.user
+Keely-Hilpert.user
+Kenyatta-Hickle.user
+Kiana-Kulas.user
+Kirstin-Hoppe.user
+Kwame-Schmitt.user
+Ladonna-Lueilwitz.user
+Lala-Will.user
+Leia-Hudson.user
+Leia-Ziemann.user
+Lillard-Purdy.user
+Lilly-Kohler.user
+Lissie-Strosin.user
+Mannie-Ritchie.user
+Masako-Lind.user
+Melisa-Yundt.user
+Michelina-Kuphal.user
+Minnie-Jacobi.user
+Murdock-Leffler.user
+Mychal-Corkery.user
+Nakita-Nader.user
+Nayely-Dare.user
+Nicholas-Strosin.user
+Niles-Runte.user
+Nina-Sporer.user
+Noreta-Steuber.user
+Ovid-Bogan.user
+Randell-Sauer.user
+Remy-Renner.user
+Ronna-Hermann.user
+Rosalind-Wisozk.user
+Rosena-Simonis.user
+Sandie-Balistreri.user
+Sharen-Hansen.user
+Sherrill-Russel.user
+Sherwin-Kovacek.user
+Sherwood-Rath.user
+Shyheim-Murazik.user
+Siobhan-Kirlin.user
+Tomas-Kutch.user
+cloaked-wookie.demo
+credit_cards.txt
+credit_cards2.txt
+files.txt
+scooter-double-mamba.demo
+serial-numbers
+test2
+tmp
+wow
 
 * Notice that if you run `ls -alh` in the `challenge_files` directory, the files scroll by very quickly. Sometimes it would be better to get the results in a paginated format. Try running `ls -alh | more`. *Describe what you see when you run `ls -alh | more`.*
 When I initiate the more feature I can see a smaller chunk of text, where it isn't as overwhelming and I can load the rest as I choose.
